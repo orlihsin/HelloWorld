@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Wow
+namespace Demo
 {
     public partial class Form1 : Form
     {
@@ -19,7 +19,12 @@ namespace Wow
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("哇~你發現我了!");
+            int number, zeor;
+
+            number = 20;
+
+            MessageBox.Show("number =" + number);
+                
 
         }
     }
