@@ -19,16 +19,21 @@ namespace Demo.Form1
 
         private void button1_Click (object sender, EventArgs e)
         {
-            int number = 0;
+            string str = "我是小歆";
+            string str2 = "哈哈";
 
-            number = number + 1;
-            number += 1;
-            number++;
+            int number = 321;
 
+            string str3 = str + str2 + number;
+
+            str += str2;
+
+
+            MessageBox.Show(str);
 
             
                
-            MessageBox.Show("number =" + number);
+           
         }
 
         
