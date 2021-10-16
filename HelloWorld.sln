@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Form1", "Demo.Form1\Demo.Form1.csproj", "{7858658A-55B7-4526-86A4-43FCA4DBF131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseClick", "MouseClick\MouseClick.csproj", "{282B719E-CE00-4F45-99FD-668FBBB2DAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseClick", "MouseClick\MouseClick.csproj", "{282B719E-CE00-4F45-99FD-668FBBB2DAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If_Else", "If_Else\If_Else.csproj", "{9BD8457C-997A-4BD2-BF1D-74092DD7424A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{282B719E-CE00-4F45-99FD-668FBBB2DAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282B719E-CE00-4F45-99FD-668FBBB2DAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282B719E-CE00-4F45-99FD-668FBBB2DAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD8457C-997A-4BD2-BF1D-74092DD7424A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD8457C-997A-4BD2-BF1D-74092DD7424A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD8457C-997A-4BD2-BF1D-74092DD7424A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD8457C-997A-4BD2-BF1D-74092DD7424A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
