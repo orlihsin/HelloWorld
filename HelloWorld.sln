@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stars", "Stars\Stars.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class(基礎物件導向)", "Class(基礎物件導向)\Class(基礎物件導向).csproj", "{E3353E16-99D2-49B1-B57A-D9B3E551EA0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorrowAndRepay", "BorrowAndRepay\BorrowAndRepay.csproj", "{A77AF674-CEFD-4F3D-9F88-B9CC54F91A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorrowAndRepay", "BorrowAndRepay\BorrowAndRepay.csproj", "{A77AF674-CEFD-4F3D-9F88-B9CC54F91A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku-Demo", "Gomoku-Demo\Gomoku-Demo.csproj", "{F18C1093-EEFD-4ABA-B40B-6F414BB76427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A77AF674-CEFD-4F3D-9F88-B9CC54F91A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A77AF674-CEFD-4F3D-9F88-B9CC54F91A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A77AF674-CEFD-4F3D-9F88-B9CC54F91A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18C1093-EEFD-4ABA-B40B-6F414BB76427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18C1093-EEFD-4ABA-B40B-6F414BB76427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18C1093-EEFD-4ABA-B40B-6F414BB76427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18C1093-EEFD-4ABA-B40B-6F414BB76427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
