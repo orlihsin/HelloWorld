@@ -13,7 +13,8 @@ namespace Gomoku_Demo
     public partial class Form1 : Form
     {
         private Board board = new Board();
-        private bool isBlack = true;
+
+        private PieceType nextPieceType = PieceType.BLACK;
 
         public Form1()
         {
@@ -26,15 +27,15 @@ namespace Gomoku_Demo
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            if (isBlack)
+            Piece piece = board.PlaceAPiece(e.X, e.Y, nextPieceType);
+            if (piece != null)//如果有棋子
             {
-                this.Controls.Add(new BlackPiece(e.X, e.Y));
-                isBlack = false;
-            }
-            else
-            {
-                this.Controls.Add(new WhitePiece(e.X, e.Y));
-                isBlack = true;
+                this.Controls.Add(piece);
+
+                if (nextPieceType == PieceType.BLACK)
+                    nextPieceType = PieceType.WHITE;
+                else if (nextPieceType == PieceType.WHITE)
+                    nextPieceType = PieceType.BLACK;
             }
         }
 
